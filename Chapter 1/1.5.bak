@@ -1,0 +1,9 @@
+#lang planet dyoo/simply-scheme:2:2
+
+(define (p) (p))
+
+(define (test x y)
+  (if (= x 0) 0 y))
+
+(test 0 (p))
+
